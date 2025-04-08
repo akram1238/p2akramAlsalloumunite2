@@ -522,9 +522,9 @@ GameObject:
   - component: {fileID: 3233316364964904129}
   - component: {fileID: 1629990189799057452}
   - component: {fileID: 6787851119784899346}
-  - component: {fileID: 6800676127660740672}
   - component: {fileID: 5877397716355679126}
   - component: {fileID: -7232878434953033244}
+  - component: {fileID: 3360743356434228404}
   m_Layer: 0
   m_Name: Animal_Stag_02
   m_TagString: Untagged
@@ -603,7 +603,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15d1923229ee5db49a5b48f95b9458c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!54 &6800676127660740672
+--- !u!65 &5877397716355679126
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4933821810848662098}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.24171223, y: 0.48742872, z: 0.4851653}
+  m_Center: {x: -0.0074149915, y: 0.20376272, z: 0.0070703467}
+--- !u!114 &-7232878434953033244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4933821810848662098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de5cf40fc0d06149a50d69073f33df4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &3360743356434228404
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -630,39 +663,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &5877397716355679126
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4933821810848662098}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.24171223, y: 0.48742872, z: 0.4851653}
-  m_Center: {x: -0.0074149915, y: 0.20376272, z: 0.0070703467}
---- !u!114 &-7232878434953033244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4933821810848662098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3de5cf40fc0d06149a50d69073f33df4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5730131649591887498
 GameObject:
   m_ObjectHideFlags: 0
